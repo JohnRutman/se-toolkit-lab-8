@@ -130,7 +130,7 @@ Examples:
 
 The `Desktop` directory is the folder that corresponds to the desktop on your screen.
 
-`Windows`: `C:/Users/<username>/Desktop/`
+`Windows`: `C:/Users/<user>/Desktop/` (see [`<user>`](./operating-system.md#user-placeholder))
 `Linux`: `~/Desktop/` (see [home directory (`~`)](#home-directory-))
 `macOS`: `~/Desktop/`
 `WSL`: `~/Desktop/`
