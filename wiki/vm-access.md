@@ -178,10 +178,10 @@ Complete these steps:
    You should see the output like this:
 
    ```terminal
-   PING 192.0.2.1 (192.0.2.1) 56(84) bytes of data.
-   64 bytes from 192.0.2.1: icmp_seq=1 ttl=62 time=4.40 ms
-   64 bytes from 192.0.2.1: icmp_seq=2 ttl=62 time=5.34 ms
-   64 bytes from 192.0.2.1: icmp_seq=3 ttl=62 time=3.04 ms
+   PING <your-vm-ip-address> (<your-vm-ip-address>) 56(84) bytes of data.
+   64 bytes from <your-vm-ip-address>: icmp_seq=1 ttl=62 time=4.40 ms
+   64 bytes from <your-vm-ip-address>: icmp_seq=2 ttl=62 time=5.34 ms
+   64 bytes from <your-vm-ip-address>: icmp_seq=3 ttl=62 time=3.04 ms
    ...
    ```
 
@@ -573,8 +573,8 @@ Complete these steps:
    The output should be similar to this:
 
    ```terminal
-   Received disconnect from 192.0.2.1 port 22:2: Too many authentication failures
-   Disconnected from 192.0.2.1 port 22
+   Received disconnect from <your-vm-ip-address> port 22:2: Too many authentication failures
+   Disconnected from <your-vm-ip-address> port 22
    ```
 
 ### Verify that you can still connect as the user `<user>` (LOCAL)
@@ -622,11 +622,11 @@ Complete these steps:
    You should see logs like these:
 
    ```terminal
-   PING 192.0.2.1 (192.0.2.1) 56(84) bytes of data.
+   PING <your-vm-ip-address> (<your-vm-ip-address>) 56(84) bytes of data.
 
-   64 bytes from 192.0.2.1: icmp_seq=1 ttl=61 time=2.15 ms
-   64 bytes from 192.0.2.1: icmp_seq=2 ttl=61 time=0.996 ms
-   64 bytes from 192.0.2.1: icmp_seq=3 ttl=61 time=1.08 ms
+   64 bytes from <your-vm-ip-address>: icmp_seq=1 ttl=61 time=2.15 ms
+   64 bytes from <your-vm-ip-address>: icmp_seq=2 ttl=61 time=0.996 ms
+   64 bytes from <your-vm-ip-address>: icmp_seq=3 ttl=61 time=1.08 ms
    
    ...
    ```
