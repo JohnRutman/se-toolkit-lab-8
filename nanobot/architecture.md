@@ -47,7 +47,7 @@ The Telegram bot (`client-telegram-bot/`) is a standalone aiogram service. It ha
 | `nanobot`             | `./nanobot`             | AI agent gateway with webchat WebSocket              |
 | `client-telegram-bot` | `./client-telegram-bot` | Telegram bot — slash commands + WebSocket forwarding |
 
-Caddy reverse-proxies the nanobot instance: `/utils/nanobot*` → `NANOBOT_GATEWAY_CONTAINER_PORT`, `/ws/chat` → `NANOBOT_WEBCHAT_CONTAINER_PORT`.
+Caddy reverse-proxies the nanobot webchat channel: `/ws/chat` → `NANOBOT_WEBCHAT_CONTAINER_PORT`.
 
 ## WebSocket protocol
 
